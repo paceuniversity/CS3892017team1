@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CityGoer</string>
+    <string name="title_activity_public_transit">publicTransitActivity</string>
 </resources>
