@@ -22,4 +22,18 @@
         android:background="@android:color/transparent"
         android:onClick="mainSelection"
         app:srcCompat="@drawable/backbutton" />
+
+    <TextView
+        android:id="@+id/titleAttractions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="15dp"
+        android:background="#80c1acac"
+        android:text="Must-See Attractions"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
 </RelativeLayout>

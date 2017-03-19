@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">CityGoer</string>
     <string name="title_activity_public_transit">publicTransitActivity</string>
+
+    <string name="fact1">
+        <![CDATA[ Beijing is the capital of the People&apos;s republic of China.\n\n
+        Bei means northern and jin means capital.\n\n
+        So, Beijing litterally means the north capital.\n\n
+        ]]>
+   </string>
 </resources>
