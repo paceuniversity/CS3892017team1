@@ -17,7 +17,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_alignParentStart="true"
-        android:layout_centerVertical="true">
+        android:layout_alignParentTop="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,12 +67,6 @@
                 android:textColor="#ff8800"
                 android:textSize="20dp" />
 
-            <ImageView
-                android:id="@+id/greatWallView"
-                android:layout_width="172dp"
-                android:layout_height="131dp"
-                android:layout_gravity="center"
-                app:srcCompat="@drawable/greatwallofchina1" />
 
             <Button
                 android:id="@+id/templeOfHeaven"
@@ -85,12 +79,6 @@
                 android:textColor="#ff8800"
                 android:textSize="20dp" />
 
-            <ImageView
-                android:id="@+id/templeOfHeavenView"
-                android:layout_width="172dp"
-                android:layout_height="131dp"
-                android:layout_gravity="center"
-                app:srcCompat="@drawable/templeofheaven1" />
 
             <Button
                 android:id="@+id/mingTombs"
