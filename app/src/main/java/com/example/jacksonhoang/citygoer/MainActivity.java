@@ -33,10 +33,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(startAttraction);
     }
 
-    public void publicTransitSelection(View view) {
-        Intent startpublicTransit = new Intent(this, publicTransitActivity.class);
-        startActivity(startpublicTransit);
-    }
-
 
 }
