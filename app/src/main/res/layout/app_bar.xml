@@ -3,13 +3,16 @@
 <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?attr/colorPrimaryDark"
+    android:background="#3C3C3C"
     android:minHeight="?attr/actionBarSize">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ChinaGoer"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#efd2ef"
         android:layout_gravity="center"
         android:id="@+id/toolbar_title" />
 

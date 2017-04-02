@@ -14,16 +14,6 @@
         layout="@layout/app_bar"
         />
 
-    <ImageButton
-        android:id="@+id/returnMain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:alpha=".50"
-        android:background="@android:color/transparent"
-        android:onClick="mainSelection"
-        app:srcCompat="@drawable/backbutton" />
 
     <TextView
         android:id="@+id/titlePhrases"
