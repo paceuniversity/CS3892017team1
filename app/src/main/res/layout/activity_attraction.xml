@@ -15,16 +15,16 @@
         />
 
     <ScrollView
-        android:id="@+id/scrollView"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:paddingTop="100dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:weightSum="1">
 
@@ -35,86 +35,62 @@
 
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:background="#80d9d6d6"
+                android:background="#80252222"
                 android:text="Must-See Attractions"
                 android:textAlignment="center"
                 android:textSize="30dp" />
 
-
             <Button
-                android:id="@+id/forbiddenCity"
+                android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/foodTab3"
+                android:layout_alignParentEnd="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginTop="69dp"
-                android:background="#80cac7c7"
-                android:text="Forbidden City"
-                android:textColor="#ff8800"
-                android:textSize="20dp" />
-
+                android:layout_marginBottom="41dp"
+                android:text="Traditional Attractions"
+                android:onClick="traditionalAttractionSelection"/>
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="199dp"
                 android:layout_height="118dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/forbiddencity1" />
+                app:srcCompat="@drawable/forbiddencity1"
+                android:layout_weight="0.42" />
 
             <Button
-                android:id="@+id/greatWall"
+                android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginTop="69dp"
-                android:background="#80cac7c7"
-                android:text="Great Wall of China"
-                android:textColor="#ff8800"
-                android:textSize="20dp" />
-
+                android:layout_below="@+id/button2"
+                android:text="Untraditional Attractions"
+                android:onClick="untraditionalAttractionSelection"/>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="199dp"
+                android:layout_height="118dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/universalstudio1" />
 
             <Button
-                android:id="@+id/templeOfHeaven"
+                android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginTop="69dp"
-                android:background="#80cac7c7"
-                android:text="Temple of Heaven"
-                android:textColor="#ff8800"
-                android:textSize="20dp" />
+                android:layout_below="@+id/button3"
+                android:layout_marginTop="28dp"
+                android:text="Popular Attractions"
+                android:onClick="popularAttractionSelection"/>
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="199dp"
+                android:layout_height="118dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/greatwallofchina1" />
 
-
-            <Button
-                android:id="@+id/mingTombs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="69dp"
-                android:background="#80cac7c7"
-                android:text="Ming Tombs"
-                android:textColor="#ff8800"
-                android:textSize="20dp" />
-
-            <Button
-                android:id="@+id/capitalMuseum"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="69dp"
-                android:background="#80cac7c7"
-                android:text="Capital Museum"
-                android:textColor="#ff8800"
-                android:textSize="20dp" />
-
-            <Button
-                android:id="@+id/summerPalace"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="69dp"
-                android:background="#80cac7c7"
-                android:text="Summer Palace"
-                android:textColor="#ff8800"
-                android:textSize="20dp" />
 
         </LinearLayout>
     </ScrollView>

@@ -19,6 +19,9 @@
         <activity android:name=".foodActivity" />
         <activity android:name=".attractionActivity" />
         <activity android:name=".factsActivity" />
+        <activity android:name=".traditionalAttractionActivity" />
+        <activity android:name=".untraditionalAttractionActivity" />
+        <activity android:name=".poppularAttractionActivity"></activity>
     </application>
 
 </manifest>

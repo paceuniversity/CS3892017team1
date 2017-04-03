@@ -20,7 +20,7 @@ public class attractionActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         // add back arrow to toolbar
-        if (getSupportActionBar() != null){
+        if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
@@ -33,5 +33,20 @@ public class attractionActivity extends AppCompatActivity {
             finish(); // close this activity and return to preview activity (if there is any)
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void traditionalAttractionSelection(View view) {
+        Intent startActi = new Intent(this, traditionalAttractionActivity.class);
+        startActivity(startActi);
+    }
+
+    public void untraditionalAttractionSelection(View view) {
+        Intent startActi = new Intent(this, untraditionalAttractionActivity.class);
+        startActivity(startActi);
+    }
+
+    public void popularAttractionSelection(View view) {
+        Intent startActi = new Intent(this, poppularAttractionActivity.class);
+        startActivity(startActi);
     }
 }

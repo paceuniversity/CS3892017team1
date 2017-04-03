@@ -2,139 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/a70e7b5e830f986e322fc6245e2ff7608e8c8027/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Jackson Hoang\AndroidStudioProjects\CityGoer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_07f49aaa4d012ba585fa4c5e717239318bf2e5ed.jar" />
+        sha1="64e58a9d2c6a9bde7cd0921604133952609854a7">
+        <dex dex="C:\Users\Jackson Hoang\AndroidStudioProjects\CityGoer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a3a0407183733883d2e49b8c8e147f45a37fa4f2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/69f7232e0ecdf3ad1950e794918a072d7c024f39/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Jackson Hoang\AndroidStudioProjects\CityGoer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_a1f8a61e4644e3b6d7e6975564dc6eaa25bdf26d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/d9e5006e5326b5e87dbf3b27cf231fb4c760a28c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_5d7faf1f7d3414f453aff935d2c08efc3c59a758.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/3e3a8b9f95de08c553c7dcb12ebe90bf8092fedc/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_4717e3ac6f7e8b03c80e57041180f3771cef556f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/bedb08505c4afa78835ec25cef6219b2ad907c64/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_d85af27648e65453e8bb910eb396e08d6b58a464.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/6fa8816c471e0d83d9edb363d9753879672943c1/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_3792c54e3daa41e340c4c0bc8fabdb5df3a5cd7b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha8/constraint-layout-solver-1.0.0-alpha8.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="80c371a4fd5e1b77f0e3a25b171356878543ffdd">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha8_8d6f5644bcc3fa9f3f645ead6808194e12a6e5b4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/8a88ec7ba2381ee04dc996c0e199de28ab268123/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_eca57e42afaf963b5cba8a7492a88bf6fad956a3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/82c62a5f1f65a60c6b0c8ea2188ae578f43e1b73/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_174081aeeb9f1ee090e0f643a05a397ba26209d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/2dd45c35b856a9e1da9fa84524759e954da7ac17/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_7cc793c671b7ad0604a6496109c73ad5066836d9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/53a62afc44ed0eb65d42c114cb2402e9c2ed2ef0/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_5671943af2d5b3bf6ab801312801e283e650bb9a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/6a8489163868ccbf48f8d2ff46d2bdfaf32f6127/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0e753ea8d0a2dea270da7d96a7d6e9d2e9c10f94">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_9f2607328ea8a3ac681f769841bb589a210aa659.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/573cfd5c18ce83d5c665ad4f27c04eac500f54ed/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_b5546cd0bba17ec80a61b75b2dfcd248b1da260c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_10b3a82dc73bf18d0ec055634439ff359bf69020.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Hana/.android/build-cache/cb70fb0aa93d3a0a7698990c97dc23f437e841ba/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Hana/Documents/School/Senior/Spring/Software Engineering/CS3892017team1/app/build/intermediates/pre-dexed/debug/classes_77ba10cd9929f653cd7486a983686e80b824cbba.jar" />
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Jackson Hoang\AndroidStudioProjects\CityGoer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2c041bd357f719b8eddee3da3c13566386907816\classes.dex" />
     </item>
 
 </items>
