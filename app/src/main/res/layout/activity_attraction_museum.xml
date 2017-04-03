@@ -36,45 +36,9 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:background="#80d9d6d6"
-                android:text="Untraditional Attractions"
+                android:text="Museums"
                 android:textAlignment="center"
                 android:textSize="30dp" />
-
-
-            <Button
-                android:id="@+id/greatWall"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="69dp"
-                android:background="#80cac7c7"
-                android:text="Great Wall of China"
-                android:textColor="#ff8800"
-                android:textSize="20dp" />
-
-
-            <Button
-                android:id="@+id/templeOfHeaven"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="69dp"
-                android:background="#80cac7c7"
-                android:text="Temple of Heaven"
-                android:textColor="#ff8800"
-                android:textSize="20dp" />
-
-
-            <Button
-                android:id="@+id/mingTombs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="69dp"
-                android:background="#80cac7c7"
-                android:text="Ming Tombs"
-                android:textColor="#ff8800"
-                android:textSize="20dp" />
 
             <Button
                 android:id="@+id/capitalMuseum"
@@ -87,16 +51,6 @@
                 android:textColor="#ff8800"
                 android:textSize="20dp" />
 
-            <Button
-                android:id="@+id/summerPalace"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="69dp"
-                android:background="#80cac7c7"
-                android:text="Summer Palace"
-                android:textColor="#ff8800"
-                android:textSize="20dp" />
 
         </LinearLayout>
     </ScrollView>

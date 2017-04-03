@@ -35,18 +35,14 @@ public class attractionActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void traditionalAttractionSelection(View view) {
-        Intent startActi = new Intent(this, traditionalAttractionActivity.class);
+    public void attractionMuseumSelection(View view) {
+        Intent startActi = new Intent(this, attractionMuseumActivity.class);
         startActivity(startActi);
     }
 
-    public void untraditionalAttractionSelection(View view) {
-        Intent startActi = new Intent(this, untraditionalAttractionActivity.class);
+    public void attractionLankdmarksSelection(View view) {
+        Intent startActi = new Intent(this, attractionLandmarksActivity.class);
         startActivity(startActi);
     }
 
-    public void popularAttractionSelection(View view) {
-        Intent startActi = new Intent(this, poppularAttractionActivity.class);
-        startActivity(startActi);
-    }
 }
