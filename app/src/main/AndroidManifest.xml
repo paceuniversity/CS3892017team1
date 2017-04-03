@@ -19,7 +19,8 @@
         <activity android:name=".foodActivity" />
         <activity android:name=".attractionActivity" />
         <activity android:name=".factsActivity" />
-        <activity android:name=".publicTransitActivity"></activity>
+        <activity android:name=".attractionMuseumActivity" />
+        <activity android:name=".attractionLandmarksActivity"></activity>
     </application>
 
 </manifest>
