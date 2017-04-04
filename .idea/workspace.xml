@@ -10,15 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004981bd-3c26-4cf5-a055-9fff4c2c848b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/capitalmuseum.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/chinanationalfilmmuseum.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/chinascienceandtechmuseum.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/chineseaviationmuseum.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mingtombs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nationalartmuseum.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nationalmuseum.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/summerpalace.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/templeofheaven.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CS3892017team1.iws" />
@@ -2698,7 +2689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491337230071</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Attraction Commit: Pictures and areas, with a fix">
+      <created>1491337348059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1491337348059</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2761,7 +2759,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Attraction Commit:  Popular, tradtional, untraditional activities. Buttons, pictures, background" />
     <MESSAGE value="Attraction Commit: Pictures and areas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Attraction Commit: Pictures and areas" />
+    <MESSAGE value="Attraction Commit: Pictures and areas, with a fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attraction Commit: Pictures and areas, with a fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
