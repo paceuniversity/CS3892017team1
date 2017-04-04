@@ -18,26 +18,38 @@
         android:id="@+id/titleFacts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="50dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="#80e2dddd"
+        android:layout_below="@+id/app_bar"
+        android:layout_marginTop="12dp"
+        android:background="#595959"
+        android:paddingTop="0dp"
         android:text="Learn Facts"
         android:textAlignment="center"
+        android:textColor="@android:color/white"
         android:textSize="30dp" />
 
-
     <TextView
-        android:id="@+id/fact1"
+        android:id="@+id/facts_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/titleFacts"
-        android:alpha="0.8"
-        android:maxLines="100"
-        android:scrollbars="vertical"
-        android:text="@string/fact1"
-        android:textSize="20dp" />
+        android:layout_marginTop="27dp"
+        android:paddingBottom="50dp"
+        android:textAlignment="center"
+        android:textColor="#ff8080"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/refreshbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="109dp"
+        android:onClick="factsSelection"
+        android:text="Tell me more" />
 
 
 </RelativeLayout>
