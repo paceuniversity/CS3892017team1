@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1016727404447",
+    "firebase_url": "https://beijinggoer.firebaseio.com",
+    "project_id": "beijinggoer",
+    "storage_bucket": "beijinggoer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016727404447:android:bf103fb7422b4c08",
+        "android_client_info": {
+          "package_name": "com.example.jacksonhoang.citygoer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016727404447-9jvo32v9tf94blttpe6giiahe7q76ph2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkT_FkG4eSOeKiGA7EHkc21dxGkrgwe9I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

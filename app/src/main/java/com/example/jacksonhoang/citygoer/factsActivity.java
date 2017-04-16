@@ -18,11 +18,13 @@ public class factsActivity extends AppCompatActivity {
 
         FirebaseDatabase db = FirebaseDatabase.getInstance();
 
-        DatabaseReference ref =    db.getReference("https://citygoer-518e1.firebaseio.com/");
+      // DatabaseReference ref =    db.getReference("https://citygoer-518e1.firebaseio.com/");
+
 
 
         DatabaseReference myRef = db.getReference("Fact1");
-        System.out.println(db.toString());
+
+        //System.out.println(db.toString());
 
         // toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar);
@@ -35,7 +37,7 @@ public class factsActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
         TextView fact1 = (TextView) findViewById(R.id.facts_text);
-        fact1.setText(db.toString());
+        fact1.setText(myRef.getKey());
 
         /** final ArrayList<String> facts =new ArrayList<String>();
          facts.add("Beijing is the capital of the People's republic of China");
