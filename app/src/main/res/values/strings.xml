@@ -1,24 +1,4 @@
 <resources>
     <string name="app_name">CityGoer</string>
     <string name="title_activity_public_transit">publicTransitActivity</string>
-
-    <string name="fact1">
-        <![CDATA[ 1. Beijing is the capital of the People\'s republic of China.\n\n
-        2. Bei means northern and jin means capital.\n\n
-        3. Thus, Beijing litterally means the north capital.\n\n
-        4. It is home to the world\'s longest wall.\n\n
-        5. Beijing\'s Forbidden City is the largest palace in the world.\n\n
-        6. Bejing was the capital for more than 6 dynsaties and governments.\n\n
-        7. Has 13 suburban districts: Changping, Daxing, Dongcheng, Fangshan, Fengtai
-        , Huairou, Mentougou, Miyun, Pinggu, hijingshan, Shunyi, Tongzhou, Yanqing. \n\n
-        8. Two main airports: Capital International and Nanyuan Airport. \n\n
-        9. The Forbidden City has a Palace Museum with imperial collections of Chinese art.
-        \n\n10. Beijing City was established over 3,000 years ago
-        \n\n11. Hosts one of the earliest living humans called Peking Man.
-        \n\n12. October 1st 1949, the People\'s Republic of China was founded.
-        \n\n13. Forbidden City was built from 1406 to 1420.
-        \n\n14. Forbidden City consists of 980 buildings taking 7,800,000 square feet.
-        \n\n15. Forbidden City was home to 24 emperors.
-        ]]>
-   </string>
 </resources>
