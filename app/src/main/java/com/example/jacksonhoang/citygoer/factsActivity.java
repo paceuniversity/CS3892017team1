@@ -15,10 +15,15 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class factsActivity extends AppCompatActivity {
 
     ArrayList<String> myFacts = new ArrayList<String>();
+    Map<String, Object> factsRead = new HashMap<String, Object>();
+    ArrayList<String>quizMe= new ArrayList<String>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +45,7 @@ public class factsActivity extends AppCompatActivity {
             }
         });
 
+
         // toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
@@ -59,8 +65,15 @@ public class factsActivity extends AppCompatActivity {
 
              public void onClick(View v) {
                  int size = myFacts.size()-1;
-                 int numb =  (int)(Math.random()*size);
-                 fact1.setText(myFacts.get(numb).toString());
+                 if(size==-1){
+                 fact1.setText("Ooops. Out of facts! Check back later");
+                 }
+                 else {
+                     int numb = (int) (Math.random() * size);
+                     fact1.setText(myFacts.get(numb).toString());
+                     quizMe.add(myFacts.get(numb));
+                     myFacts.remove(myFacts.get(numb));
+                 }
              }
          });
 
