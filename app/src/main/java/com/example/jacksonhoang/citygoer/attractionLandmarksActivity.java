@@ -21,6 +21,7 @@ import layout.greatwall_fragment;
 public class attractionLandmarksActivity extends AppCompatActivity {
 
     Button b1;
+    Button b2;
 
     public void init() {
         b1 = (Button) findViewById(R.id.greatWall);
