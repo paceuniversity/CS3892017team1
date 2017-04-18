@@ -59,6 +59,12 @@
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/forbiddencity1" />
 
+
+
+
+
+
+
             <Button
                 android:id="@+id/greatWall"
                 android:layout_width="match_parent"
@@ -69,12 +75,19 @@
                 android:text="Great Wall of China"
                 android:textColor="#ff8800"
                 android:textSize="20dp" />
+
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="199dp"
                 android:layout_height="118dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/greatwallofchina1" />
+
+
+
+
+
+
 
 
             <Button
