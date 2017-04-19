@@ -33,6 +33,7 @@
                 android:layout_alignBottom="@+id/foodTab3"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentStart="true"
+                android:onClick="foodSelection2"
                 android:text="Must have" />
 
             <ImageView
