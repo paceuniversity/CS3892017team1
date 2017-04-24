@@ -1,31 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainbackgroundb"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.jacksonhoang.citygoer.MainActivity">
-
-    <Button
-        android:id="@+id/translate"
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:background="#95E6E3E3"
-        android:onClick="translationSelection"
-        android:text="THIS IS A TEST"
-        android:textColor="#2C3539"
-        android:textSize="20dp"
-        android:layout_marginBottom="12dp"
-        android:layout_above="@+id/helloBye"
-        android:layout_alignParentStart="true" />
+    android:orientation="vertical"
+    android:background="#ffffff">
 
     <include
         android:id="@+id/app_bar"
         layout="@layout/app_bar"
         />
 
+    <EditText
+        android:id="@+id/messageToTranslate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType=
+            "textCapSentences|textAutoCorrect|textMultiLine"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#595555"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+    />
+    <Button android:id="@+id/translateButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Translate"
+        android:textColor="#ffaa00"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
 
-</RelativeLayout>
+    <TextView android:id="@+id/translatedText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="The translation goes here"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="#595555"
+        android:gravity="center"/>
+
+</LinearLayout>
+
+
