@@ -4,7 +4,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    
+
     <!--yelp-->
     <string name="client_id">hVaxvMhxrHGiseUxsqRqsg</string>
     <string name="client_secret">yQYeAE2aMUgSaolBZza0YNYafjAJkZVB4pQ0wL1JGwWP4cIMEmPWc45kADWuIJtz</string>
@@ -15,5 +15,5 @@
     <string name="consumerSecret">TLbRGlmBek8j8ZcnlR8X97ug48Q</string>
     <string name="token">tp8H0AAccrrzAcDT_YMKm8ZTUlD8IlbZ</string>
     <string name="tokenSecret">ZhFj842hkZpSPt2lijHPLFTgxNE</string>
-    
+
 </resources>
