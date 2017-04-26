@@ -1,36 +1,16 @@
 package com.example.jacksonhoang.citygoer;
 
-import android.content.Intent;
-import android.location.Criteria;
-import android.location.Location;
-import android.location.LocationListener;
-import android.location.LocationManager;
-import android.net.Uri;
-import android.os.AsyncTask;
-import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.os.Bundle;
-import android.view.View;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-
-import retrofit2.Call;
-import retrofit2.Response;
-
-public class foodActivity extends AppCompatActivity {
+public class foodResults extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_food);
+        setContentView(R.layout.activity_food_results);
 
         // toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar);
@@ -51,15 +31,5 @@ public class foodActivity extends AppCompatActivity {
             finish(); // close this activity and return to preview activity (if there is any)
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public void foodSelection3(View view) {
-        Intent startFood3 = new Intent(this, foodActivity3.class);
-        startActivity(startFood3);
-    }
-
-    public void foodResult(View view) {
-        Intent foodRes = new Intent(this, foodResults.class);
-        startActivity(foodRes);
     }
 }
