@@ -4,7 +4,6 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainbackgrounda"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.jacksonhoang.citygoer.MainActivity">
 
@@ -16,56 +15,55 @@
     <Button
         android:id="@+id/phrases"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        android:background="#95E6E3E3"
+        android:layout_marginTop="75dp"
         android:onClick="phraseSelection"
         android:text="Learn Mandarin"
-        android:textColor="#2C3539"
+        android:textColor="#fff"
+        android:background="@drawable/translate"
         android:textSize="20dp"
         />
 
     <Button
         android:id="@+id/foods"
-
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="100dp"
         android:layout_below="@+id/phrases"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:background="#95E6E3E3"
         android:onClick="foodSelection"
         android:text="Get Food"
-        android:textColor="#2C3539"
+        android:textColor="#fff"
+        android:background="@drawable/food"
         android:textSize="20dp" />
 
     <Button
         android:id="@+id/attractions"
 
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="100dp"
         android:layout_below="@+id/foods"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:background="#95E6E3E3"
         android:onClick="attractionSelection"
         android:text="Must-see Attractions"
-        android:textColor="#2C3539"
+        android:textColor="#fff"
+        android:background="@drawable/activities"
         android:textSize="20dp" />
 
     <Button
         android:id="@+id/facts"
 
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="100dp"
         android:layout_below="@+id/attractions"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:background="#95E6E3E3"
         android:onClick="factsSelection"
         android:text="Fun Facts"
-        android:textColor="#2C3539"
+        android:textColor="#fff"
+        android:background="@drawable/facts"
         android:textSize="20dp" />
 
 </RelativeLayout>
