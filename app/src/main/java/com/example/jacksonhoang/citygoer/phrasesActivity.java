@@ -13,7 +13,7 @@ public class phrasesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_translate);
+        setContentView(R.layout.activity_phrases);
 
         // toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar);
