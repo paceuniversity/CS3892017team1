@@ -17,7 +17,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="100dp"
+        android:paddingTop="75dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true">
 
@@ -34,7 +34,8 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentStart="true"
                 android:onClick="foodResult"
-                android:text="Must have" />
+                android:text="Must have"
+                android:textColor="#ffaa00"/>
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -51,7 +52,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/button2"
                 android:onClick="foodResult"
-                android:text="Traditional" />
+                android:text="Traditional"
+                android:textColor="#ffaa00"/>
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -68,7 +70,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/button3"
                 android:onClick="foodResult"
-                android:text="New" />
+                android:text="New"
+                android:textColor="#ffaa00"/>
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -85,7 +88,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/button4"
                 android:onClick="foodResult"
-                android:text="Top Rated" />
+                android:text="Top Rated"
+                android:textColor="#ffaa00"/>
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -102,7 +106,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/button5"
                 android:onClick="foodResult"
-                android:text="Chinese-American" />
+                android:text="Chinese-American"
+                android:textColor="#ffaa00"/>
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -116,7 +121,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="foodSelection3"
-                android:text="American" />
+                android:text="American"
+                android:textColor="#ffaa00"/>
 
             <ImageView
                 android:id="@+id/imageView7"
