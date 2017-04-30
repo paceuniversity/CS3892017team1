@@ -37,6 +37,14 @@
                 android:textAlignment="center"
                 android:textSize="35dp" />
 
+
+
+
+
+
+
+
+
             <Button
                 android:id="@+id/capitalMuseum"
                 android:layout_width="match_parent"
@@ -53,12 +61,26 @@
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/capitalmuseum"
                 android:layout_weight="0.42" />
+            <ImageButton
+                android:id="@+id/capitalMuseum1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/googlemapicon" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/capital_info"
+                android:textColor="#39332d" />
+
+
 
             <Button
                 android:id="@+id/nationalMuseum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_marginTop="69dp"
                 android:background="#80cac7c7"
                 android:text="National Museum"
@@ -71,12 +93,26 @@
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/nationalmuseum"
                 android:layout_weight="0.42" />
+            <ImageButton
+                android:id="@+id/nationalMuseum1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/googlemapicon" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/national_info"
+                android:textColor="#39332d" />
+
+
 
             <Button
                 android:id="@+id/artMuseum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_marginTop="69dp"
                 android:background="#80cac7c7"
                 android:text="National Art Museum"
@@ -89,12 +125,26 @@
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/nationalartmuseum"
                 android:layout_weight="0.42" />
+            <ImageButton
+                android:id="@+id/artMuseum1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/googlemapicon" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/art_info"
+                android:textColor="#39332d" />
+
+
 
             <Button
                 android:id="@+id/aviationMuseum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_marginTop="69dp"
                 android:background="#80cac7c7"
                 android:text="Chinese Aviation Museum"
@@ -107,12 +157,25 @@
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/chineseaviationmuseum"
                 android:layout_weight="0.42" />
+            <ImageButton
+                android:id="@+id/aviationMuseum1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/googlemapicon" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aviation_info"
+                android:textColor="#39332d" />
+
 
             <Button
                 android:id="@+id/filmMuseum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_marginTop="69dp"
                 android:background="#80cac7c7"
                 android:text="China national film Museum"
@@ -125,12 +188,26 @@
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/chinanationalfilmmuseum"
                 android:layout_weight="0.42" />
+            <ImageButton
+                android:id="@+id/filmMuseum1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/googlemapicon" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/film_info"
+                android:textColor="#39332d" />
+
+
 
             <Button
                 android:id="@+id/techMuseum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_marginTop="69dp"
                 android:background="#80cac7c7"
                 android:text="China Science and Tech Museum"
@@ -143,6 +220,27 @@
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/chinascienceandtechmuseum"
                 android:layout_weight="0.42" />
+            <ImageButton
+                android:id="@+id/techMuseum1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/googlemapicon" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech_info"
+                android:textColor="#39332d" />
+
+
+
+
+
+
+
+
 
 
 

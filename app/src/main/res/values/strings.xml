@@ -43,5 +43,45 @@
         the back hill, in sharp contrast, is quiet with natural beauty. The central Kunming Lake, covering
         2.2 square kilometres (540 acres), was entirely man-made and the excavated soil was used to build
         Longevity Hill. </string>
+    <string name="capital_info">The Capital Museum is an art museum. It was opened in 1981 and houses a
+        enormous collection of ancient artifacts of porcelain, bronze, calligraphy, painting, jade, sculpture,
+        and Buddhist statues from imperial China as well as other Asian cultures \n
+        The Beijing Capital Museum today contains over 200,000 cultural relics in its collection. Only a
+        small fraction of the collection is exhibited, and a significant percentage of the art collection
+        comprises artifacts unearthed in Beijing.</string>
+    <string name="national_info">The museum was established in 2003 by the merging of the two separate museums
+        that had occupied the same building since 1959. It was merged from the Museum of Chinese Revolution and
+        the National Museum of Chinese History. \n
+        The museum covers Chinese history from the Yuanmou Man of 1.7 million years ago to the end of the
+        Qing Dynasty (the last imperial dynasty in Chinese history), has a permanent collection of 1,050,000 items,
+        with many precious and rare artifacts not to be found in museums anywhere else in China or the rest of the world.
+        </string>
+    <string name="art_info">The National Art Museum of China was completely constructed in 1962 and has a
+        total land area of 30,000 square meters or 320,000 square feet. \n
+        The permanent collection includes ancient and contemporary Chinese artworks as well as notable Western
+        artworks. Although the museum contains collection of imperial Chinese art, its main mission is to serve
+        as a national level art museum dedicated to displaying, collecting and researching the modern and
+        contemporary artistic works of China. It has a main building of four stories, the first three being display areas.
+        There are 21 exhibition halls at the museum.\n
+        The collections are divided into these specific categories: traditional Chinese paintings, oil paintings,
+        print, sculpture, Chinese New Year picture, traditional picture story, caricature, watercolor painting,
+        lacquer, porcelain, and costumes.</string>
+    <string name="aviation_info">The Chinese Aviation Museum was first opened to the public on 11 November 1989.
+        The museum is located 25 miles north of Beijing. Part of the museum is located inside a cave in the side
+        of Datangshan Mountain. The cavern was originally part of the tunnels and underground bunker system of
+        Shahezhen Airbase, and is 586 metres (1,905 ft) long by 11 metres (36 ft) high by 40 metres (130 ft) wide.\n
+        There are more than 200 aircraft on display, with an emphasis on the Korean War and the Cold War.
+        The collection includes many unique machines, including a 1903 Wright Flyer, Bell UH-1H Huey helicopter,
+        MiG-9 Fighter, FairchildPT-19 trainer, de Havilland Mosquito bomber, Nanchang A-5 atomic bomber,
+        North AmericanP-51 Mustang, and many more.</string>
+    <string name="film_info">The China National Film Museum is the largest professional firlm museum in the world.
+        The museum shows 100 years of Chinese cinema history. The museum is located northeast of Beijing and
+        occupies an area of 65 acres, with an architectural space of 38,000 square meters. \n
+        he museum has 20 permanent exhibition halls. In addition, there are multifunctional halls for
+        exhibitions and meetings, as well as various temporary spaces.</string>
+    <string name="tech_info">The China Science and Technology Museum was completed in 1988. The first hall exhibits
+        ancient Chinese technology such as astronomical devices, the compass, gunpowder, bronze smelting and
+        casting. The second hall exhibits topics of astronautics energy, communications, material science and
+        mechanics, information technology, life science, and environmental science.</string>
 
 </resources>
