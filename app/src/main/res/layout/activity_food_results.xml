@@ -14,16 +14,96 @@
         layout="@layout/app_bar"
         />
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageView
+        android:id="@+id/imgfoodr"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/app_bar"
+        app:srcCompat="@drawable/chinesedumplings" />
+
+    <ImageView
+        android:id="@+id/imgfoodr1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/imgfoodr"
+        app:srcCompat="@drawable/chinesedumplings" />
+
+    <ImageView
+        android:id="@+id/imgfoodr2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/imgfoodr1"
+        app:srcCompat="@drawable/chinesedumplings" />
+
+    <ImageView
+        android:id="@+id/imgfoodr3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/imgfoodr2"
+        app:srcCompat="@drawable/chinesedumplings" />
+
+    <Button
+        android:id="@+id/foodr"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/app_bar"
-        android:textColor="#2C3539"
+        android:layout_height="100dp"
+        android:layout_below="@+id/app_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/imgfoodr"
+        android:textColor="#ffaa00"
         android:text=
             "Restaurant name
             Address
             Phone#:
-            Ratings" />
+            Rating" />
+
+    <Button
+        android:id="@+id/foodr1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/foodr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/imgfoodr1"
+        android:textColor="#ffaa00"
+        android:text=
+            "Restaurant name
+            Address
+            Phone#:
+            Rating" />
+
+    <Button
+        android:id="@+id/foodr2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/foodr1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/imgfoodr2"
+        android:textColor="#ffaa00"
+        android:text=
+            "Restaurant name
+            Address
+            Phone#:
+            Rating" />
+
+    <Button
+        android:id="@+id/foodr3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/foodr2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/imgfoodr3"
+        android:textColor="#ffaa00"
+        android:text=
+            "Restaurant name
+            Address
+            Phone#:
+            Rating" />
 
 </RelativeLayout>
