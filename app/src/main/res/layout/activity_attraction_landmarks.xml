@@ -19,7 +19,6 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:paddingTop="100dp"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true">
 
         <LinearLayout
@@ -32,21 +31,17 @@
                 android:id="@+id/titleAttractions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
-                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:background="#80d9d6d6"
-                android:text="Museums"
+                android:background="#80252222"
+                android:text="Landmarks"
                 android:textAlignment="center"
-                android:textSize="30dp" />
-
+                android:textSize="35dp" />
 
 
             <Button
                 android:id="@+id/forbiddenCity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_marginTop="69dp"
                 android:background="#80cac7c7"
                 android:text="Forbidden City"
@@ -58,9 +53,19 @@
                 android:layout_height="118dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/forbiddencity1" />
-
-
-
+            <ImageButton
+                android:id="@+id/forbiddenCity1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/googlemapicon" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/forbiddenCity_info"
+                android:textColor="#39332d" />
 
 
 
@@ -69,22 +74,30 @@
                 android:id="@+id/greatWall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_marginTop="69dp"
                 android:background="#80cac7c7"
                 android:text="Great Wall of China"
                 android:textColor="#ff8800"
                 android:textSize="20dp" />
-
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="199dp"
                 android:layout_height="118dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/greatwallofchina1" />
-
-
-
+            <ImageButton
+                android:id="@+id/greatWall1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/googlemapicon" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/greatWall_info"
+                android:textColor="#39332d"/>
 
 
 
@@ -94,7 +107,6 @@
                 android:id="@+id/templeOfHeaven"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_marginTop="69dp"
                 android:background="#80cac7c7"
                 android:text="Temple of Heaven"
@@ -106,12 +118,26 @@
                 android:layout_height="118dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/templeofheaven" />
+            <ImageButton
+                android:id="@+id/templeOfHeaven1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/googlemapicon" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/templeofHeaven_info"
+                android:textColor="#39332d"/>
+
+
 
             <Button
                 android:id="@+id/mingTombs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_marginTop="69dp"
                 android:background="#80cac7c7"
                 android:text="Ming Tombs"
@@ -123,12 +149,26 @@
                 android:layout_height="118dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/mingtombs" />
+            <ImageButton
+                android:id="@+id/mingTombs1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/googlemapicon" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mingTomb_info"
+                android:textColor="#39332d"/>
+
+
 
             <Button
                 android:id="@+id/summerPalace"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_marginTop="69dp"
                 android:background="#80cac7c7"
                 android:text="Summer Palace"
@@ -140,6 +180,19 @@
                 android:layout_height="118dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/summerpalace" />
+            <ImageButton
+                android:id="@+id/summerPalace1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/googlemapicon" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/summerPalace_info"
+                android:textColor="#39332d"/>
 
         </LinearLayout>
     </ScrollView>

@@ -19,7 +19,6 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:paddingTop="100dp"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true">
 
         <LinearLayout
@@ -32,18 +31,16 @@
                 android:id="@+id/titleAttractions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:background="#80252222"
                 android:text="Museums"
                 android:textAlignment="center"
-                android:textSize="30dp" />
+                android:textSize="35dp" />
 
             <Button
                 android:id="@+id/capitalMuseum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_marginTop="69dp"
                 android:background="#80cac7c7"
                 android:text="Capital Museum"

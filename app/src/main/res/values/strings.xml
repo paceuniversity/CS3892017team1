@@ -16,4 +16,32 @@
     <string name="token">tp8H0AAccrrzAcDT_YMKm8ZTUlD8IlbZ</string>
     <string name="tokenSecret">ZhFj842hkZpSPt2lijHPLFTgxNE</string>
 
+    <string name="forbiddenCity_info">The shape of the Forbidden City is a rectangle. It stretches
+        3,153 feet from the north to the south and 2470 feet from west to east. \n It consists of
+        980 buildings with 8,886 rooms. The construction of this city took 14 years and over a
+        million workers. The main resource to construct the building was whole logs.</string>
+    <string name="greatWall_info">The Great Wall of China is a series of fortifications. The Great
+        Wall is 5,500.3 miles long or 8,858.8 kilometers.
+        \nIt is mainly made up of bricks, wood, rammed earth, and stone. </string>
+    <string name="mingTomb_info"> The Ming tombs are a collection of mausoleums built by the
+        emperors of the Ming dynasty of China. The tomb of the first Ming emperor is located near his
+        capital Nanjing. However, the majority of the Ming tombs are located in a cluster near
+        Beijing and collectively known as the Thirteen Tombs of the Ming Dynasty. \n
+    The siting of the Ming dynasty imperial tombs was carefully chosen according to Feng Shui
+        (geomancy) principles. According to these, bad spirits and evil winds descending from
+        the North must be deflected. The area is 40 kilometers and is completely enclosed by
+        mountains in a valley full of dark earth and tranquil water.</string>
+    <string name="templeofHeaven_info">The temple of Heaven is for religious purposes. These buildings
+        are in the southeastern part of Beijin. They are visited by the emperors of the Ming and
+        Qing dynasties for yearly ceremonies for prayer to the heavens for good harvest of crops.
+        \n The temple complex was constructed from 1406 to 1420 during the reign of the Yongle Emperor,
+        who was also responsible for the construction of the Forbidden City in Beijing.
+        The Temple grounds cover 2.73 km² of parkland and comprises three main groups of constructions,
+        all built according to strict philosophical requirements.</string>
+    <string name="summerPalace_info">The Summer Palace sits on Longevity Hill and the hill is about
+        60 meters or 200 feet in height.The front hill is rich with splendid halls and pavilions, while
+        the back hill, in sharp contrast, is quiet with natural beauty. The central Kunming Lake, covering
+        2.2 square kilometres (540 acres), was entirely man-made and the excavated soil was used to build
+        Longevity Hill. </string>
+
 </resources>

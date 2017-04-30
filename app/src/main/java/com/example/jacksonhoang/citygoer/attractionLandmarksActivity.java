@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import layout.ForbiddenCity;
 import layout.MingTombs;
@@ -20,10 +21,10 @@ import layout.greatwall_fragment;
 
 public class attractionLandmarksActivity extends AppCompatActivity {
 
-    Button b1;
+    ImageButton b1;
 
     public void init() {
-        b1 = (Button) findViewById(R.id.greatWall);
+        b1 = (ImageButton) findViewById(R.id.greatWall1);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,7 +35,7 @@ public class attractionLandmarksActivity extends AppCompatActivity {
         });
     }
     public void init2() {
-        b1 = (Button) findViewById(R.id.forbiddenCity);
+        b1 = (ImageButton) findViewById(R.id.forbiddenCity1);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,7 +46,7 @@ public class attractionLandmarksActivity extends AppCompatActivity {
         });
     }
     public void init3() {
-        b1 = (Button) findViewById(R.id.templeOfHeaven);
+        b1 = (ImageButton) findViewById(R.id.templeOfHeaven1);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,7 +57,7 @@ public class attractionLandmarksActivity extends AppCompatActivity {
         });
     }
     public void init4() {
-        b1 = (Button) findViewById(R.id.mingTombs);
+        b1 = (ImageButton) findViewById(R.id.mingTombs1);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,7 +68,7 @@ public class attractionLandmarksActivity extends AppCompatActivity {
         });
     }
     public void init5() {
-        b1 = (Button) findViewById(R.id.summerPalace);
+        b1 = (ImageButton) findViewById(R.id.summerPalace1);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
