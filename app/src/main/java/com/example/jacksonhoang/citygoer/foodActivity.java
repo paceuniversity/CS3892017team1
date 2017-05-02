@@ -54,8 +54,8 @@ public class foodActivity extends AppCompatActivity {
     }
 
     public void foodSelection3(View view) {
-        Intent startFood3 = new Intent(this, foodActivity3.class);
-        startActivity(startFood3);
+//        Intent startFood3 = new Intent(this, foodActivity3.class);
+//        startActivity(startFood3);
     }
 
     public void foodResult(View view) {

@@ -20,22 +20,33 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="BeijingGoer" >>
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
         <activity android:name=".phrasesActivity" />
         <activity android:name=".foodActivity" />
         <activity android:name=".attractionActivity" />
         <activity android:name=".factsActivity" />
         <activity android:name=".attractionMuseumActivity" />
         <activity android:name=".attractionLandmarksActivity" />
+        <activity android:name=".foodResults" />
+        <activity android:name=".foodActivity3" />
+
 
         <!-- Maps Android key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyChnfD0o2TAGrVBZR9jjE8fNwzKfzmZYog" />
-
     </application>
 
 </manifest>
