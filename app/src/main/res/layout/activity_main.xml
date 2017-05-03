@@ -50,7 +50,7 @@
         android:text="Must-see Attractions"
         android:textColor="#fff"
         android:background="@drawable/activities"
-        android:textSize="20dp" />
+         />
 
     <Button
         android:id="@+id/facts"

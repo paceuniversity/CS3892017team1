@@ -26,19 +26,39 @@
         android:paddingTop="0dp"
         android:textAlignment="center"
         android:textColor="@android:color/holo_orange_dark"
-        android:textSize="30dp" />
+        android:textSize="20sp"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/refreshbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
         android:background="@drawable/refresh"
-        android:maxHeight="2dp"
-        android:maxWidth="2dp"
         android:onClick="factsSelection"
-        android:width="40dp"
-        android:height="40dp"/>
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/facts_text"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/locations_page"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/refreshbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/temple"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/food_page"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/refreshbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/food_button"
+        android:visibility="invisible" />
 
 
 </RelativeLayout>
