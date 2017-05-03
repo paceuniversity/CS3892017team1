@@ -106,4 +106,40 @@
             Phone#:
             Rating" />
 
+    <ImageButton
+        android:id="@+id/foodaddress"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/imgfoodr"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/googlemapicon" />
+
+    <ImageButton
+        android:id="@+id/foodaddress1"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/imgfoodr1"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/googlemapicon" />
+
+    <ImageButton
+        android:id="@+id/foodaddress2"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/imgfoodr2"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/googlemapicon" />
+
+    <ImageButton
+        android:id="@+id/foodaddress3"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/imgfoodr3"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/googlemapicon" />
+
 </RelativeLayout>
