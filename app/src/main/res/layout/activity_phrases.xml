@@ -16,6 +16,7 @@
         android:layout_height="wrap_content"
         android:inputType=
             "textCapSentences|textAutoCorrect|textMultiLine"
+        android:maxLength="100"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#595555"
         android:layout_margin="15dp"
@@ -27,6 +28,7 @@
         android:layout_height="wrap_content"
         android:text="Translate"
         android:textColor="#ffaa00"
+        android:textSize="10pt"
         android:layout_margin="10dp"
         android:padding="10dp"/>
 
