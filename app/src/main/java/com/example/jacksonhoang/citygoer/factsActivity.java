@@ -16,12 +16,11 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 
 public class factsActivity extends AppCompatActivity {
 
     ArrayList<String> myFacts = new ArrayList<String>();
-    Map<String, Object> factsRead = new HashMap<String, Object>();
+    HashMap<String, String> factsRead = new HashMap<String, String>();
     ArrayList<String>quizMe= new ArrayList<String>();
 
     @Override
@@ -37,9 +36,12 @@ public class factsActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
 
                 for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
-                   myFacts.add((String)postSnapshot.getValue());
+                    factsRead.put((String) postSnapshot.getValue(),(String) postSnapshot.getKey());
+                    myFacts.add((String) postSnapshot.getValue());
+                    //  System.out.println((String)postSnapshot.getKey());
                 }
             }
+
             @Override
             public void onCancelled(DatabaseError databaseError) {
             }
@@ -52,32 +54,45 @@ public class factsActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         // add back arrow to toolbar
-        if (getSupportActionBar() != null){
+        if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
-       final TextView fact1 = (TextView) findViewById(R.id.facts_text);
-        fact1.setText("");
+        final TextView fact1 = (TextView) findViewById(R.id.facts_text);
+        fact1.setText("Welcome to the Facts Page! Refresh to start learning all about the beautiful city of Beijing!");
 
-         Button button = (Button) findViewById(R.id.refreshbutton);
+        Button button = (Button) findViewById(R.id.refreshbutton);
 
-         button.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
 
-             public void onClick(View v) {
-                 int size = myFacts.size()-1;
-                 if(size==-1){
-                 fact1.setText("Ooops. Out of facts! Check back later");
-                 }
-                 else {
-                     int numb = (int) (Math.random() * size);
-                     fact1.setText(myFacts.get(numb).toString());
-                     quizMe.add(myFacts.get(numb));
-                     myFacts.remove(myFacts.get(numb));
-                 }
-             }
-         });
+            public void onClick(View v) {
 
+
+                int size = myFacts.size() - 1;
+                if (size == -1) {
+                    fact1.setText("Ooops. Out of facts! Check back later");
+                } else {
+                    int numb = (int) (Math.random() * size);
+                    String word = myFacts.get(numb);
+                    fact1.setText(word);
+
+                    String myKey = factsRead.get(word);
+
+                    if(myKey.substring(0,5).equals("place")) {
+                   }
+                    else if(myKey.substring(0,7).equals("general")){
+                    }
+                    else{
+                    }
+
+                    quizMe.add(myFacts.get(numb));
+                    myFacts.remove(myFacts.get(numb));
+                }
+            }
+        });
     }
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
