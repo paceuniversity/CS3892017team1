@@ -25,8 +25,17 @@ public class factsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_facts);
+
+        // toolbar
+        Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Fun Facts");
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
 
         //initializing firebase database
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Info").child("Facts");
@@ -46,13 +55,6 @@ public class factsActivity extends AppCompatActivity {
             public void onCancelled(DatabaseError databaseError) {
             }
         });
-
-
-        // toolbar
-        Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-
         // add back arrow to toolbar
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -79,11 +81,11 @@ public class factsActivity extends AppCompatActivity {
                     String myKey = factsRead.get(word);
 
                     if(myKey.substring(0,5).equals("place")) {
+
                    }
-                    else if(myKey.substring(0,7).equals("general")){
+                    if(myKey.substring(0,4).equals("food")){
                     }
-                    else{
-                    }
+
 
                     quizMe.add(myFacts.get(numb));
                     myFacts.remove(myFacts.get(numb));
