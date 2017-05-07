@@ -1,5 +1,6 @@
 package com.example.jacksonhoang.citygoer;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -21,7 +22,6 @@ public class factsActivity extends AppCompatActivity {
 
     ArrayList<String> myFacts = new ArrayList<String>();
     HashMap<String, String> factsRead = new HashMap<String, String>();
-    ArrayList<String>quizMe= new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,6 @@ public class factsActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Fun Facts");
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
-
         //initializing firebase database
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Info").child("Facts");
 
@@ -45,7 +44,7 @@ public class factsActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
 
                 for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
-                    factsRead.put((String) postSnapshot.getValue(),(String) postSnapshot.getKey());
+                    factsRead.put((String) postSnapshot.getValue(), (String) postSnapshot.getKey());
                     myFacts.add((String) postSnapshot.getValue());
                     //  System.out.println((String)postSnapshot.getKey());
                 }
@@ -64,6 +63,9 @@ public class factsActivity extends AppCompatActivity {
         fact1.setText("Welcome to the Facts Page! Refresh to start learning all about the beautiful city of Beijing!");
 
         Button button = (Button) findViewById(R.id.refreshbutton);
+        final Button locations = (Button) findViewById(R.id.locations_page);
+        final Button foods = (Button) findViewById(R.id.food_page);
+
 
         button.setOnClickListener(new View.OnClickListener() {
 
@@ -80,28 +82,53 @@ public class factsActivity extends AppCompatActivity {
 
                     String myKey = factsRead.get(word);
 
-                    if(myKey.substring(0,5).equals("place")) {
+                    locations.setVisibility(View.INVISIBLE);
+                    foods.setVisibility(View.INVISIBLE);
 
-                   }
-                    if(myKey.substring(0,4).equals("food")){
+                    if (myKey.substring(0, 5).equals("place")) {
+                        locations.setVisibility(View.VISIBLE);
+                        foods.setVisibility(View.INVISIBLE);
+                    }
+                    if (myKey.substring(0, 4).equals("food")) {
+                        locations.setVisibility(View.INVISIBLE);
+                        foods.setVisibility(View.VISIBLE);
                     }
 
-
-                    quizMe.add(myFacts.get(numb));
                     myFacts.remove(myFacts.get(numb));
                 }
             }
         });
+
+        locations.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),attractionActivity.class);
+                startActivity(i);
+            }
+
+        });
+
+        foods.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),foodActivity.class);
+                startActivity(i);
+
+            }
+
+        });
+
+
     }
 
 
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // handle arrow click here
-        if (item.getItemId() == android.R.id.home) {
-            finish(); // close this activity and return to preview activity (if there is any)
+        @Override
+        public boolean onOptionsItemSelected (MenuItem item){
+            // handle arrow click here
+            if (item.getItemId() == android.R.id.home) {
+                finish(); // close this activity and return to preview activity (if there is any)
+            }
+            return super.onOptionsItemSelected(item);
         }
-        return super.onOptionsItemSelected(item);
     }
-}
+

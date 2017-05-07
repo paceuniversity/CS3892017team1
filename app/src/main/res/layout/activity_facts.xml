@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/mainbackgroundb"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:visibility="visible"
     tools:context="com.example.jacksonhoang.citygoer.MainActivity">
 
     <include
         android:id="@+id/app_bar"
-        layout="@layout/app_bar"
-        />
+        layout="@layout/app_bar" />
 
     <TextView
         android:id="@+id/facts_text"
@@ -21,31 +21,33 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/app_bar"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
         android:layout_marginTop="80dp"
         android:background="@color/cast_expanded_controller_ad_container_white_stripe_color"
         android:paddingTop="0dp"
         android:textAlignment="center"
         android:textColor="@android:color/holo_orange_dark"
         android:textSize="20sp"
-        android:textStyle="italic" />
+         />
 
     <Button
         android:id="@+id/refreshbutton"
         android:layout_width="60dp"
         android:layout_height="50dp"
-        android:background="@drawable/refresh"
-        android:onClick="factsSelection"
-        android:layout_marginTop="63dp"
-        android:layout_below="@+id/facts_text"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        />
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/refresh"
+        android:onClick="factsSelection" />
 
     <Button
         android:id="@+id/locations_page"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_below="@+id/refreshbutton"
+        android:layout_above="@+id/refreshbutton"
         android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
         android:layout_marginTop="14dp"
         android:background="@drawable/temple"
         android:visibility="invisible" />
@@ -54,8 +56,9 @@
         android:id="@+id/food_page"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_below="@+id/refreshbutton"
+        android:layout_above="@+id/refreshbutton"
         android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
         android:layout_marginTop="14dp"
         android:background="@drawable/food_button"
         android:visibility="invisible" />
