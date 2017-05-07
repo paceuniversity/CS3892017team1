@@ -1,40 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainbackgroundb"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jacksonhoang.citygoer.MainActivity">
+    android:orientation="vertical"
+    android:background="#ffffff">
 
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        />
 
-    <ImageButton
-        android:id="@+id/returnMain"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/messageToTranslate"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:alpha=".50"
-        android:background="@android:color/transparent"
-        android:onClick="mainSelection"
-        app:srcCompat="@drawable/backbutton" />
+        android:inputType=
+            "textCapSentences|textAutoCorrect|textMultiLine"
+        android:maxLength="100"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#595555"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        />
 
-    <TextView
-        android:id="@+id/titlePhrases"
-        android:layout_width="match_parent"
+    <Button android:id="@+id/translateButton"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:text="Translate"
+        android:textColor="#ffaa00"
+        android:textSize="10pt"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
 
-        android:layout_marginTop="15dp"
-        android:background="#80c9c6c6"
-        android:text="Learn Mandarin"
-        android:textAlignment="center"
-        android:textSize="30dp" />
+    <TextView android:id="@+id/translatedText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="The translation goes here"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="#595555"
+        android:gravity="center"/>
 
-</RelativeLayout>
+</LinearLayout>
+
+

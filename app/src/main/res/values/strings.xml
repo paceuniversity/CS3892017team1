@@ -2,23 +2,86 @@
     <string name="app_name">CityGoer</string>
     <string name="title_activity_public_transit">publicTransitActivity</string>
 
-    <string name="fact1">
-        <![CDATA[ 1. Beijing is the capital of the People\'s republic of China.\n\n
-        2. Bei means northern and jin means capital.\n\n
-        3. Thus, Beijing litterally means the north capital.\n\n
-        4. It is home to the world\'s longest wall.\n\n
-        5. Beijing\'s Forbidden City is the largest palace in the world.\n\n
-        6. Bejing was the capital for more than 6 dynsaties and governments.\n\n
-        7. Has 13 suburban districts: Changping, Daxing, Dongcheng, Fangshan, Fengtai
-        , Huairou, Mentougou, Miyun, Pinggu, hijingshan, Shunyi, Tongzhou, Yanqing. \n\n
-        8. Two main airports: Capital International and Nanyuan Airport. \n\n
-        9. The Forbidden City has a Palace Museum with imperial collections of Chinese art.
-        \n\n10. Beijing City was established over 3,000 years ago
-        \n\n11. Hosts one of the earliest living humans called Peking Man.
-        \n\n12. October 1st 1949, the People\'s Republic of China was founded.
-        \n\n13. Forbidden City was built from 1406 to 1420.
-        \n\n14. Forbidden City consists of 980 buildings taking 7,800,000 square feet.
-        \n\n15. Forbidden City was home to 24 emperors.
-        ]]>
-   </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--yelp-->
+    <string name="client_id">hVaxvMhxrHGiseUxsqRqsg</string>
+    <string name="client_secret">yQYeAE2aMUgSaolBZza0YNYafjAJkZVB4pQ0wL1JGwWP4cIMEmPWc45kADWuIJtz</string>
+    <string name="access_token">2sBNK7TrgKWs9_n6gYkScn0JzIgoXOZgzAy8UsUWBzUiV7YUM1S-bv4VUXrDxrbUVfzxpo33Z5f6OfAv23m5foKP7gILNzmA1KUlROByxT81PSYx7tEVUL6dJub0WHYx
+    </string>
+
+    <string name="consumerKey">UJ1a_felexDlK-XN35ynwA</string>
+    <string name="consumerSecret">TLbRGlmBek8j8ZcnlR8X97ug48Q</string>
+    <string name="token">tp8H0AAccrrzAcDT_YMKm8ZTUlD8IlbZ</string>
+    <string name="tokenSecret">ZhFj842hkZpSPt2lijHPLFTgxNE</string>
+
+    <string name="forbiddenCity_info">The shape of the Forbidden City is a rectangle. It stretches
+        3,153 feet from the north to the south and 2470 feet from west to east. \n It consists of
+        980 buildings with 8,886 rooms. The construction of this city took 14 years and over a
+        million workers. The main resource to construct the building was whole logs.</string>
+    <string name="greatWall_info">The Great Wall of China is a series of fortifications. The Great
+        Wall is 5,500.3 miles long or 8,858.8 kilometers.
+        \nIt is mainly made up of bricks, wood, rammed earth, and stone. </string>
+    <string name="mingTomb_info"> The Ming tombs are a collection of mausoleums built by the
+        emperors of the Ming dynasty of China. The tomb of the first Ming emperor is located near his
+        capital Nanjing. However, the majority of the Ming tombs are located in a cluster near
+        Beijing and collectively known as the Thirteen Tombs of the Ming Dynasty. \n
+    The siting of the Ming dynasty imperial tombs was carefully chosen according to Feng Shui
+        (geomancy) principles. According to these, bad spirits and evil winds descending from
+        the North must be deflected. The area is 40 kilometers and is completely enclosed by
+        mountains in a valley full of dark earth and tranquil water.</string>
+    <string name="templeofHeaven_info">The temple of Heaven is for religious purposes. These buildings
+        are in the southeastern part of Beijin. They are visited by the emperors of the Ming and
+        Qing dynasties for yearly ceremonies for prayer to the heavens for good harvest of crops.
+        \n The temple complex was constructed from 1406 to 1420 during the reign of the Yongle Emperor,
+        who was also responsible for the construction of the Forbidden City in Beijing.
+        The Temple grounds cover 2.73 km² of parkland and comprises three main groups of constructions,
+        all built according to strict philosophical requirements.</string>
+    <string name="summerPalace_info">The Summer Palace sits on Longevity Hill and the hill is about
+        60 meters or 200 feet in height.The front hill is rich with splendid halls and pavilions, while
+        the back hill, in sharp contrast, is quiet with natural beauty. The central Kunming Lake, covering
+        2.2 square kilometres (540 acres), was entirely man-made and the excavated soil was used to build
+        Longevity Hill. </string>
+    <string name="capital_info">The Capital Museum is an art museum. It was opened in 1981 and houses a
+        enormous collection of ancient artifacts of porcelain, bronze, calligraphy, painting, jade, sculpture,
+        and Buddhist statues from imperial China as well as other Asian cultures \n
+        The Beijing Capital Museum today contains over 200,000 cultural relics in its collection. Only a
+        small fraction of the collection is exhibited, and a significant percentage of the art collection
+        comprises artifacts unearthed in Beijing.</string>
+    <string name="national_info">The museum was established in 2003 by the merging of the two separate museums
+        that had occupied the same building since 1959. It was merged from the Museum of Chinese Revolution and
+        the National Museum of Chinese History. \n
+        The museum covers Chinese history from the Yuanmou Man of 1.7 million years ago to the end of the
+        Qing Dynasty (the last imperial dynasty in Chinese history), has a permanent collection of 1,050,000 items,
+        with many precious and rare artifacts not to be found in museums anywhere else in China or the rest of the world.
+        </string>
+    <string name="art_info">The National Art Museum of China was completely constructed in 1962 and has a
+        total land area of 30,000 square meters or 320,000 square feet. \n
+        The permanent collection includes ancient and contemporary Chinese artworks as well as notable Western
+        artworks. Although the museum contains collection of imperial Chinese art, its main mission is to serve
+        as a national level art museum dedicated to displaying, collecting and researching the modern and
+        contemporary artistic works of China. It has a main building of four stories, the first three being display areas.
+        There are 21 exhibition halls at the museum.\n
+        The collections are divided into these specific categories: traditional Chinese paintings, oil paintings,
+        print, sculpture, Chinese New Year picture, traditional picture story, caricature, watercolor painting,
+        lacquer, porcelain, and costumes.</string>
+    <string name="aviation_info">The Chinese Aviation Museum was first opened to the public on 11 November 1989.
+        The museum is located 25 miles north of Beijing. Part of the museum is located inside a cave in the side
+        of Datangshan Mountain. The cavern was originally part of the tunnels and underground bunker system of
+        Shahezhen Airbase, and is 586 metres (1,905 ft) long by 11 metres (36 ft) high by 40 metres (130 ft) wide.\n
+        There are more than 200 aircraft on display, with an emphasis on the Korean War and the Cold War.
+        The collection includes many unique machines, including a 1903 Wright Flyer, Bell UH-1H Huey helicopter,
+        MiG-9 Fighter, FairchildPT-19 trainer, de Havilland Mosquito bomber, Nanchang A-5 atomic bomber,
+        North AmericanP-51 Mustang, and many more.</string>
+    <string name="film_info">The China National Film Museum is the largest professional firlm museum in the world.
+        The museum shows 100 years of Chinese cinema history. The museum is located northeast of Beijing and
+        occupies an area of 65 acres, with an architectural space of 38,000 square meters. \n
+        he museum has 20 permanent exhibition halls. In addition, there are multifunctional halls for
+        exhibitions and meetings, as well as various temporary spaces.</string>
+    <string name="tech_info">The China Science and Technology Museum was completed in 1988. The first hall exhibits
+        ancient Chinese technology such as astronomical devices, the compass, gunpowder, bronze smelting and
+        casting. The second hall exhibits topics of astronautics energy, communications, material science and
+        mechanics, information technology, life science, and environmental science.</string>
+
 </resources>

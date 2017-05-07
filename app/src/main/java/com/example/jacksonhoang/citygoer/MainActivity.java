@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.support.v7.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +12,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
     }
 
     public void phraseSelection(View view) {
@@ -32,11 +36,4 @@ public class MainActivity extends AppCompatActivity {
         Intent startAttraction = new Intent(this, factsActivity.class);
         startActivity(startAttraction);
     }
-
-    public void publicTransitSelection(View view) {
-        Intent startpublicTransit = new Intent(this, publicTransitActivity.class);
-        startActivity(startpublicTransit);
-    }
-
-
 }

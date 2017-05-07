@@ -7,47 +7,58 @@
     android:layout_height="match_parent"
     android:background="@drawable/mainbackgroundb"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jacksonhoang.citygoer.MainActivity">
 
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        />
 
     <TextView
-        android:id="@+id/titleFacts"
+        android:id="@+id/facts_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="#80e2dddd"
-        android:text="Learn Facts"
+        android:layout_below="@+id/app_bar"
+        android:layout_marginTop="80dp"
+        android:background="@color/cast_expanded_controller_ad_container_white_stripe_color"
+        android:paddingTop="0dp"
         android:textAlignment="center"
-        android:textSize="30dp" />
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:textStyle="italic" />
 
-
-    <TextView
-        android:id="@+id/fact1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/titleFacts"
-        android:alpha="0.8"
-        android:maxLines="100"
-        android:scrollbars="vertical"
-        android:text="@string/fact1"
-        android:textSize="20dp" />
-
-    <ImageButton
-        android:id="@+id/returnMain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+    <Button
+        android:id="@+id/refreshbutton"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/refresh"
+        android:onClick="factsSelection"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/facts_text"
         android:layout_centerHorizontal="true"
-        android:alpha=".50"
-        android:background="@android:color/transparent"
-        android:onClick="mainSelection"
-        app:srcCompat="@drawable/backbutton" />
+        />
+
+    <Button
+        android:id="@+id/locations_page"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/refreshbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/temple"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/food_page"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/refreshbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/food_button"
+        android:visibility="invisible" />
 
 
 </RelativeLayout>
