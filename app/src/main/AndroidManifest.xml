@@ -40,8 +40,9 @@
         <activity android:name=".attractionMuseumActivity" />
         <activity android:name=".attractionLandmarksActivity" />
         <activity android:name=".foodResults" />
-        <activity android:name=".foodActivity3" />
-
+        <activity
+            android:name="com.foursquare.android.nativeoauth.TokenExchangeActivity"
+            android:theme="@android:style/Theme.Dialog" />
 
         <!-- Maps Android key -->
         <meta-data
