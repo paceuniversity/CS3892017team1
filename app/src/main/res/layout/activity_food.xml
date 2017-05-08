@@ -108,7 +108,7 @@
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="foodSelection3"
+                android:onClick="foodResult"
                 android:text="American"
                 android:textColor="#ffaa00"/>
 
