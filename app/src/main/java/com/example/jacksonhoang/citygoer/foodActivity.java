@@ -14,6 +14,8 @@ import android.view.MenuItem;
 import android.os.Bundle;
 import android.view.View;
 
+import com.foursquare.android.nativeoauth.FoursquareOAuth;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -61,5 +63,10 @@ public class foodActivity extends AppCompatActivity {
     public void foodResult(View view) {
         Intent foodRes = new Intent(this, foodResults.class);
         startActivity(foodRes);
+    }
+
+    public void foodSquare(View view) {
+        //Intent startsquare = FoursquareOAuth.getTokenExchangeIntent(context, client_id, client_secret, authCode); 
+
     }
 }
