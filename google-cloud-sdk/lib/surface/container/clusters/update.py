@@ -139,7 +139,7 @@ class Update(base.UpdateCommand):
     group = parser.add_mutually_exclusive_group(required=True)
     _AddMutuallyExclusiveArgs(group)
     flags.AddClusterAutoscalingFlags(parser, group, hidden=True)
-    flags.AddMasterAuthorizedNetworksFlags(parser, group, hidden=True)
+    flags.AddMainAuthorizedNetworksFlags(parser, group, hidden=True)
     flags.AddEnableLegacyAuthorizationFlag(group, hidden=True)
     flags.AddStartIpRotationFlag(group, hidden=True)
     flags.AddCompleteIpRotationFlag(group, hidden=True)
@@ -174,18 +174,18 @@ class Update(base.UpdateCommand):
     if args.generate_password or args.set_password:
       if args.generate_password:
         password = ''
-        options = api_adapter.SetMasterAuthOptions(
-            action=api_adapter.SetMasterAuthOptions.GENERATE_PASSWORD,
+        options = api_adapter.SetMainAuthOptions(
+            action=api_adapter.SetMainAuthOptions.GENERATE_PASSWORD,
             password=password)
       else:
         password = raw_input('Please enter the new password:')
         _ValidatePassword(password)
-        options = api_adapter.SetMasterAuthOptions(
-            action=api_adapter.SetMasterAuthOptions.SET_PASSWORD,
+        options = api_adapter.SetMainAuthOptions(
+            action=api_adapter.SetMainAuthOptions.SET_PASSWORD,
             password=password)
 
       try:
-        op_ref = adapter.SetMasterAuth(cluster_ref, options)
+        op_ref = adapter.SetMainAuth(cluster_ref, options)
         del password
         del options
       except apitools_exceptions.HttpError as error:
@@ -203,7 +203,7 @@ class Update(base.UpdateCommand):
       except apitools_exceptions.HttpError as error:
         raise exceptions.HttpException(error, util.HTTP_ERROR_FORMAT)
     else:
-      enable_master_authorized_networks = args.enable_master_authorized_networks
+      enable_main_authorized_networks = args.enable_main_authorized_networks
 
       try:
         if args.enable_legacy_authorization is not None:
@@ -219,9 +219,9 @@ class Update(base.UpdateCommand):
               max_nodes=args.max_nodes,
               node_pool=args.node_pool,
               locations=locations,
-              enable_master_authorized_networks=
-              enable_master_authorized_networks,
-              master_authorized_networks=args.master_authorized_networks)
+              enable_main_authorized_networks=
+              enable_main_authorized_networks,
+              main_authorized_networks=args.main_authorized_networks)
           op_ref = adapter.UpdateCluster(cluster_ref, options)
       except apitools_exceptions.HttpError as error:
         raise exceptions.HttpException(error, util.HTTP_ERROR_FORMAT)
@@ -244,7 +244,7 @@ class UpdateBeta(Update):
     _AddMutuallyExclusiveArgs(group)
     flags.AddClusterAutoscalingFlags(parser, group, hidden=True)
     _AddAdditionalZonesArg(group)
-    flags.AddMasterAuthorizedNetworksFlags(parser, group, hidden=True)
+    flags.AddMainAuthorizedNetworksFlags(parser, group, hidden=True)
     flags.AddEnableLegacyAuthorizationFlag(group)
     flags.AddStartIpRotationFlag(group)
     flags.AddCompleteIpRotationFlag(group)
@@ -261,7 +261,7 @@ class UpdateAlpha(Update):
     _AddMutuallyExclusiveArgs(group)
     flags.AddClusterAutoscalingFlags(parser, group)
     _AddAdditionalZonesArg(group)
-    flags.AddMasterAuthorizedNetworksFlags(parser, group, hidden=True)
+    flags.AddMainAuthorizedNetworksFlags(parser, group, hidden=True)
     flags.AddEnableLegacyAuthorizationFlag(group)
     flags.AddStartIpRotationFlag(group)
     flags.AddCompleteIpRotationFlag(group)

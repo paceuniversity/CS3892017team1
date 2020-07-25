@@ -390,7 +390,7 @@ class Train(beam.PTransform):
                ps_count=None,
                worker_type=None,
                ps_type=None,
-               master_type=None,
+               main_type=None,
                label=None,
                timeout=datetime.timedelta(hours=3),
                runtime_version=None):
@@ -420,7 +420,7 @@ class Train(beam.PTransform):
       ps_count: Parameter Server count to use with a CUSTOM scale tier.
       worker_type: Worker type to use with a CUSTOM scale tier.
       ps_type: Parameter Server type to use with a CUSTOM scale tier.
-      master_type: Master type to use with a CUSTOM scale tier.
+      main_type: Main type to use with a CUSTOM scale tier.
       label: (Optional) label for the transform.
       timeout: Timeout for waiting on the Training Job to complete. The job will
         be cancelled if it does not finish in this time, and this Transform will
@@ -445,7 +445,7 @@ class Train(beam.PTransform):
     self.ps_count = ps_count
     self.worker_type = worker_type
     self.ps_type = ps_type
-    self.master_type = master_type
+    self.main_type = main_type
     if not tf_main_spec.train_request.timeout:
       tf_main_spec.train_request.timeout = timeout
     self.runtime_version = runtime_version
@@ -594,8 +594,8 @@ class Train(beam.PTransform):
       train_request.worker_type = self.worker_type
     if not train_request.ps_type:
       train_request.ps_type = self.ps_type
-    if not train_request.master_type:
-      train_request.master_type = self.master_type
+    if not train_request.main_type:
+      train_request.main_type = self.main_type
     if not train_request.runtime_version:
       train_request.runtime_version = self.runtime_version
 

@@ -72,7 +72,7 @@ class TrainingJobDo(beam.DoFn):
           python_module=train_spec.python_module, args=train_spec.job_args,
           hyperparameters=train_spec.hyperparameters,
           region=train_spec.region, scale_tier=train_spec.scale_tier,
-          master_type=train_spec.master_type,
+          main_type=train_spec.main_type,
           worker_type=train_spec.worker_type,
           ps_type=train_spec.ps_type, worker_count=train_spec.worker_count,
           ps_count=train_spec.ps_count,

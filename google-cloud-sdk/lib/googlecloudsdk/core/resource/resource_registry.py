@@ -649,7 +649,7 @@ RESOURCE_REGISTRY = {
           table(
             name,
             zone,
-            master_version():label=MASTER_VERSION,
+            main_version():label=MASTER_VERSION,
             endpoint:label=MASTER_IP,
             nodePools[0].config.machineType,
             currentNodeVersion:label=NODE_VERSION,

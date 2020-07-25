@@ -46,7 +46,7 @@ using the following command.
 def AddClusterVersionFlag(parser, suppressed=False, help=None):  # pylint: disable=redefined-builtin
   """Adds a --cluster-version flag to the given parser."""
   help_text = argparse.SUPPRESS if suppressed else help or """\
-The Kubernetes version to use for the master and nodes. Defaults to
+The Kubernetes version to use for the main and nodes. Defaults to
 server-specified.
 
 The default Kubernetes version are available using the following command.
@@ -368,36 +368,36 @@ If no Service Account is specified, the "default" service account is used.
       help=help_text)
 
 
-def AddMasterAuthorizedNetworksFlags(parser, update_group=None, hidden=False):
-  """Adds Master Authorized Networks related flags to parser.
+def AddMainAuthorizedNetworksFlags(parser, update_group=None, hidden=False):
+  """Adds Main Authorized Networks related flags to parser.
 
-  Master Authorized Networks related flags are:
-  --enable-master-authorized-networks --master-authorized-networks.
+  Main Authorized Networks related flags are:
+  --enable-main-authorized-networks --main-authorized-networks.
 
   Args:
     parser: A given parser.
     update_group: An optional group of mutually exclusive flag options
-        to which an --enable-master-authorized-networks flag is added.
+        to which an --enable-main-authorized-networks flag is added.
     hidden: If true, suppress help text for added options.
   """
-  group = parser.add_argument_group('Master Authorized Networks')
+  group = parser.add_argument_group('Main Authorized Networks')
   authorized_networks_group = group if update_group is None else update_group
   authorized_networks_group.add_argument(
-      '--enable-master-authorized-networks',
+      '--enable-main-authorized-networks',
       default=None if update_group else False,
       help='Allow only Authorized Networks and GCE Public IPs to connect to '
-      'Kubernetes master through HTTPS. By default public internet (0.0.0.0/0)'
-      ' is allowed to connect to Kubernetes master through HTTPS.',
+      'Kubernetes main through HTTPS. By default public internet (0.0.0.0/0)'
+      ' is allowed to connect to Kubernetes main through HTTPS.',
       hidden=hidden,
       action='store_true')
   group.add_argument(
-      '--master-authorized-networks',
+      '--main-authorized-networks',
       type=arg_parsers.ArgList(min_length=1),
       metavar='NETWORK',
       help='The list of external networks that are allowed to connect to '
-      'Kubernetes master through HTTPS. Specified in CIDR notation '
+      'Kubernetes main through HTTPS. Specified in CIDR notation '
       '(e.g. 192.168.100.0/24). Can not be specified unless '
-      '--enable-master-authorized-networks is also specified.',
+      '--enable-main-authorized-networks is also specified.',
       hidden=hidden)
 
 

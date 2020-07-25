@@ -253,7 +253,7 @@ class ApiBeta(ApiBase):
                           hyperparameters=None,
                           region=None,
                           scale_tier=None,
-                          master_type=None,
+                          main_type=None,
                           worker_type=None,
                           ps_type=None,
                           worker_count=None,
@@ -275,7 +275,7 @@ class ApiBeta(ApiBase):
       region: (Optional) Google Cloud Region in which to run training.
       scale_tier: ML scale tier, specifying the machine types and number of
         workers to use for the job.
-      master_type: (Optional) the master machine type.
+      main_type: (Optional) the main machine type.
       worker_type: (Optional) the worker machine type.
       ps_type: (Optional) the parameter server machine type.
       worker_count: (Optional) the number of worker machines.
@@ -301,8 +301,8 @@ class ApiBeta(ApiBase):
       training_input['hyperparameters'] = hyperparameters
     if region:
       training_input['region'] = region
-    if master_type:
-      training_input['master_type'] = master_type
+    if main_type:
+      training_input['main_type'] = main_type
     if worker_type:
       training_input['worker_type'] = worker_type
     if ps_type:
